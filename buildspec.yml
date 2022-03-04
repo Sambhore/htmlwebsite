@@ -2,10 +2,10 @@ version: 0.2
 
 phases:
   install:
-   	runtime-versions:
-            nodejs:10
-	commands:
-	    - echo "installing something" 
+    runtime-versions:
+      nodejs:10
+    commands:
+      - echo "installing something" 
   pre_build:
     commands:
       - echo "we are ni the pre build phase" 
