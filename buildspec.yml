@@ -17,4 +17,8 @@ phases:
       - grep -Fq "Congrajulations" index.html
   post_build:
     commands:
-      - echo Entered the post_build phase...
+      - echo Entered the post_build phase..
+ artifacts:
+    files:
+      - '**/*'
+    name: my-webapp-artifact
